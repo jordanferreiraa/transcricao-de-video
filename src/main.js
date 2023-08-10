@@ -10,7 +10,7 @@
 * https://youtube.com/watch?v=eHz8ns_n_Fg
 * https://ebook-logica.maykbrito.dev
 */
-
+import './form.js'
 //style
 import '../styles/global.css'
 import '../styles/base.css'
