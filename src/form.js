@@ -17,7 +17,7 @@ form.addEventListener('submit', async (e) => {
     await loadVideo(url)
 
     loadingMessage('Baixando e convertendo o video')
-    await axios.get('http://localhost:3333/audio?=v' + getVideoId(url))
+    await axios.get('http://localhost:3333/audio?v=' + getVideoId(url))
 
   } catch (error) {
     console.log('[SUBMIT_ERROR] ', error)
